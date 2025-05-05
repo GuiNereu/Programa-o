@@ -1,0 +1,5 @@
+/home/zhongxezhongxe/Desktop/Prog/project/build/CMakeFiles/runscrim.dir
+/home/zhongxezhongxe/Desktop/Prog/project/build/CMakeFiles/tester.dir
+/home/zhongxezhongxe/Desktop/Prog/project/build/CMakeFiles/delivery.dir
+/home/zhongxezhongxe/Desktop/Prog/project/build/CMakeFiles/edit_cache.dir
+/home/zhongxezhongxe/Desktop/Prog/project/build/CMakeFiles/rebuild_cache.dir
