@@ -3,21 +3,36 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES_BASE at CMakeLists.txt:18 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/zhongxezhongxe/Desktop/Prog/project/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/*.cpp")
 set(OLD_GLOB
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Color.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Command.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Command/Blank.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Command/Open.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Command/Save.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Image.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Logger.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/PNG.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Scrim.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/ScrimParser.cpp"
-  "/home/zhongxezhongxe/Desktop/Prog/project/src/Utils.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Color.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Add.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Blank.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Chain.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Crop.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Fill.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Hmirror.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Invert.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Move.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Open.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Replace.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Resize.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateLeft.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateRight.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Save.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ScaleUp.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Slide.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ToGrayScale.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Vmirror.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Image.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Logger.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/PNG.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Scrim.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/ScrimParser.cpp"
+  "/home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

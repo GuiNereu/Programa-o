@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/
+cmake_ninja_workdir = /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target runscrim
 
@@ -49,87 +49,192 @@ cmake_ninja_workdir = /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debu
 
 build cmake_object_order_depends_target_runscrim: phony || .
 
-build CMakeFiles/runscrim.dir/src/Color.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Color.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Color.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Color.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Color.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/Command.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Command.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Command.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Blank.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Command/Add.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Add.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Add.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Blank.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
 
-build CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Open.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Chain.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Crop.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Fill.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Hmirror.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Hmirror.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Hmirror.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Invert.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Move.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Move.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Move.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Open.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Open.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
 
-build CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Save.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Replace.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Resize.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateLeft.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateRight.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Save.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
 
-build CMakeFiles/runscrim.dir/src/Image.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Image.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ScaleUp.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Slide.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ToGrayScale.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Vmirror.cpp || cmake_object_order_depends_target_runscrim
+  DEP_FILE = CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/runscrim.dir
+  OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src/Command
+
+build CMakeFiles/runscrim.dir/src/Image.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Image.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Image.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/Logger.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Logger.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Logger.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Logger.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Logger.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/PNG.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/PNG.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/PNG.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/PNG.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/PNG.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Scrim.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Scrim.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Scrim.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/ScrimParser.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/ScrimParser.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/src/Utils.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Utils.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/src/Utils.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Utils.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/src/Utils.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/src
 
-build CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/main/RunScrim.cpp || cmake_object_order_depends_target_runscrim
+build CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CXX_COMPILER__runscrim_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/main/RunScrim.cpp || cmake_object_order_depends_target_runscrim
   DEP_FILE = CMakeFiles/runscrim.dir/main/RunScrim.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/runscrim.dir
   OBJECT_FILE_DIR = CMakeFiles/runscrim.dir/main
 
@@ -141,7 +246,7 @@ build CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CXX_COMPILER__runscrim_unscan
 #############################################
 # Link the executable runscrim
 
-build runscrim: CXX_EXECUTABLE_LINKER__runscrim_Debug CMakeFiles/runscrim.dir/src/Color.cpp.o CMakeFiles/runscrim.dir/src/Command.cpp.o CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o CMakeFiles/runscrim.dir/src/Command/Open.cpp.o CMakeFiles/runscrim.dir/src/Command/Save.cpp.o CMakeFiles/runscrim.dir/src/Image.cpp.o CMakeFiles/runscrim.dir/src/Logger.cpp.o CMakeFiles/runscrim.dir/src/PNG.cpp.o CMakeFiles/runscrim.dir/src/Scrim.cpp.o CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o CMakeFiles/runscrim.dir/src/Utils.cpp.o CMakeFiles/runscrim.dir/main/RunScrim.cpp.o
+build runscrim: CXX_EXECUTABLE_LINKER__runscrim_Debug CMakeFiles/runscrim.dir/src/Color.cpp.o CMakeFiles/runscrim.dir/src/Command.cpp.o CMakeFiles/runscrim.dir/src/Command/Add.cpp.o CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o CMakeFiles/runscrim.dir/src/Command/Hmirror.cpp.o CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o CMakeFiles/runscrim.dir/src/Command/Move.cpp.o CMakeFiles/runscrim.dir/src/Command/Open.cpp.o CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o CMakeFiles/runscrim.dir/src/Command/Save.cpp.o CMakeFiles/runscrim.dir/src/Command/ScaleUp.cpp.o CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o CMakeFiles/runscrim.dir/src/Command/Vmirror.cpp.o CMakeFiles/runscrim.dir/src/Image.cpp.o CMakeFiles/runscrim.dir/src/Logger.cpp.o CMakeFiles/runscrim.dir/src/PNG.cpp.o CMakeFiles/runscrim.dir/src/Scrim.cpp.o CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o CMakeFiles/runscrim.dir/src/Utils.cpp.o CMakeFiles/runscrim.dir/main/RunScrim.cpp.o
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/runscrim.dir
@@ -159,87 +264,192 @@ build runscrim: CXX_EXECUTABLE_LINKER__runscrim_Debug CMakeFiles/runscrim.dir/sr
 
 build cmake_object_order_depends_target_tester: phony || .
 
-build CMakeFiles/tester.dir/src/Color.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Color.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Color.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Color.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Color.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/Command.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Command.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Command.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/Command/Blank.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Blank.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Command/Add.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Add.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Add.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Blank.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Blank.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Command/Blank.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
 
-build CMakeFiles/tester.dir/src/Command/Open.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Open.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Command/Chain.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Chain.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Chain.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Crop.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Crop.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Crop.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Fill.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Fill.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Fill.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Hmirror.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Hmirror.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Hmirror.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Invert.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Invert.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Invert.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Move.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Move.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Move.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Open.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Open.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Command/Open.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
 
-build CMakeFiles/tester.dir/src/Command/Save.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Save.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Command/Replace.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Replace.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Replace.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Resize.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Resize.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Resize.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateLeft.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateRight.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Save.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Save.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Command/Save.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
 
-build CMakeFiles/tester.dir/src/Image.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Image.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ScaleUp.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Slide.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Slide.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Slide.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ToGrayScale.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Vmirror.cpp || cmake_object_order_depends_target_tester
+  DEP_FILE = CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o.d
+  FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
+  OBJECT_DIR = CMakeFiles/tester.dir
+  OBJECT_FILE_DIR = CMakeFiles/tester.dir/src/Command
+
+build CMakeFiles/tester.dir/src/Image.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Image.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Image.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/Logger.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Logger.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Logger.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Logger.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Logger.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/PNG.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/PNG.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/PNG.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/PNG.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/PNG.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/Scrim.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Scrim.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Scrim.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Scrim.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Scrim.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/ScrimParser.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/ScrimParser.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/src/Utils.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/src/Utils.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/src/Utils.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Utils.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/src/Utils.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/src
 
-build CMakeFiles/tester.dir/main/Tester.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/project/main/Tester.cpp || cmake_object_order_depends_target_tester
+build CMakeFiles/tester.dir/main/Tester.cpp.o: CXX_COMPILER__tester_unscanned_Debug /home/zhongxezhongxe/Desktop/Prog/Programa-o/main/Tester.cpp || cmake_object_order_depends_target_tester
   DEP_FILE = CMakeFiles/tester.dir/main/Tester.cpp.o.d
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g -fdiagnostics-color=always
-  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/project/include
+  INCLUDES = -I/home/zhongxezhongxe/Desktop/Prog/Programa-o/include
   OBJECT_DIR = CMakeFiles/tester.dir
   OBJECT_FILE_DIR = CMakeFiles/tester.dir/main
 
@@ -251,7 +461,7 @@ build CMakeFiles/tester.dir/main/Tester.cpp.o: CXX_COMPILER__tester_unscanned_De
 #############################################
 # Link the executable tester
 
-build tester: CXX_EXECUTABLE_LINKER__tester_Debug CMakeFiles/tester.dir/src/Color.cpp.o CMakeFiles/tester.dir/src/Command.cpp.o CMakeFiles/tester.dir/src/Command/Blank.cpp.o CMakeFiles/tester.dir/src/Command/Open.cpp.o CMakeFiles/tester.dir/src/Command/Save.cpp.o CMakeFiles/tester.dir/src/Image.cpp.o CMakeFiles/tester.dir/src/Logger.cpp.o CMakeFiles/tester.dir/src/PNG.cpp.o CMakeFiles/tester.dir/src/Scrim.cpp.o CMakeFiles/tester.dir/src/ScrimParser.cpp.o CMakeFiles/tester.dir/src/Utils.cpp.o CMakeFiles/tester.dir/main/Tester.cpp.o
+build tester: CXX_EXECUTABLE_LINKER__tester_Debug CMakeFiles/tester.dir/src/Color.cpp.o CMakeFiles/tester.dir/src/Command.cpp.o CMakeFiles/tester.dir/src/Command/Add.cpp.o CMakeFiles/tester.dir/src/Command/Blank.cpp.o CMakeFiles/tester.dir/src/Command/Chain.cpp.o CMakeFiles/tester.dir/src/Command/Crop.cpp.o CMakeFiles/tester.dir/src/Command/Fill.cpp.o CMakeFiles/tester.dir/src/Command/Hmirror.cpp.o CMakeFiles/tester.dir/src/Command/Invert.cpp.o CMakeFiles/tester.dir/src/Command/Move.cpp.o CMakeFiles/tester.dir/src/Command/Open.cpp.o CMakeFiles/tester.dir/src/Command/Replace.cpp.o CMakeFiles/tester.dir/src/Command/Resize.cpp.o CMakeFiles/tester.dir/src/Command/RotateLeft.cpp.o CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o CMakeFiles/tester.dir/src/Command/Save.cpp.o CMakeFiles/tester.dir/src/Command/ScaleUp.cpp.o CMakeFiles/tester.dir/src/Command/Slide.cpp.o CMakeFiles/tester.dir/src/Command/ToGrayScale.cpp.o CMakeFiles/tester.dir/src/Command/Vmirror.cpp.o CMakeFiles/tester.dir/src/Image.cpp.o CMakeFiles/tester.dir/src/Logger.cpp.o CMakeFiles/tester.dir/src/PNG.cpp.o CMakeFiles/tester.dir/src/Scrim.cpp.o CMakeFiles/tester.dir/src/ScrimParser.cpp.o CMakeFiles/tester.dir/src/Utils.cpp.o CMakeFiles/tester.dir/main/Tester.cpp.o
   FLAGS = -g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined -std=c++17  -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/tester.dir
@@ -271,7 +481,7 @@ build delivery: phony CMakeFiles/delivery delivery.zip
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -282,7 +492,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/zhongxezhongxe/Desktop/Prog/project -B/home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug
+  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/zhongxezhongxe/Desktop/Prog/Programa-o -B/home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -299,9 +509,9 @@ build CMakeFiles/delivery | ${cmake_ninja_workdir}CMakeFiles/delivery: phony del
 #############################################
 # Custom command for delivery.zip
 
-build delivery.zip | ${cmake_ninja_workdir}delivery.zip: CUSTOM_COMMAND /home/zhongxezhongxe/Desktop/Prog/project/include /home/zhongxezhongxe/Desktop/Prog/project/src/Color.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Blank.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Open.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Save.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Image.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Logger.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/PNG.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Scrim.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/ScrimParser.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Utils.cpp
-  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/project && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E tar cf /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/delivery.zip --format=zip /home/zhongxezhongxe/Desktop/Prog/project/include /home/zhongxezhongxe/Desktop/Prog/project/src/Color.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Blank.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Open.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Command/Save.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Image.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Logger.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/PNG.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Scrim.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/ScrimParser.cpp /home/zhongxezhongxe/Desktop/Prog/project/src/Utils.cpp
-  DESC = Creating zip archive: /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/delivery.zip
+build delivery.zip | ${cmake_ninja_workdir}delivery.zip: CUSTOM_COMMAND /home/zhongxezhongxe/Desktop/Prog/Programa-o/include /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Color.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Add.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Blank.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Chain.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Crop.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Fill.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Hmirror.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Invert.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Move.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Open.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Replace.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Resize.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateLeft.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateRight.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Save.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ScaleUp.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Slide.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ToGrayScale.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Vmirror.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Image.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Logger.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/PNG.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Scrim.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/ScrimParser.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Utils.cpp
+  COMMAND = cd /home/zhongxezhongxe/Desktop/Prog/Programa-o && /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E tar cf /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/delivery.zip --format=zip /home/zhongxezhongxe/Desktop/Prog/Programa-o/include /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Color.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Add.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Blank.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Chain.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Crop.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Fill.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Hmirror.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Invert.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Move.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Open.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Replace.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Resize.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateLeft.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/RotateRight.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Save.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ScaleUp.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Slide.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/ToGrayScale.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Command/Vmirror.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Image.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Logger.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/PNG.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Scrim.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/ScrimParser.cpp /home/zhongxezhongxe/Desktop/Prog/Programa-o/src/Utils.cpp
+  DESC = Creating zip archive: /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/delivery.zip
   restat = 1
 
 # =============================================================================
@@ -313,7 +523,7 @@ build delivery.zip | ${cmake_ninja_workdir}delivery.zip: CUSTOM_COMMAND /home/zh
 # =============================================================================
 
 #############################################
-# Folder: /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug
+# Folder: /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug
 
 build all: phony runscrim tester
 
@@ -324,13 +534,13 @@ build all: phony runscrim tester
 #############################################
 # Phony target to force glob verification run.
 
-build /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+build /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+build /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -338,14 +548,14 @@ build /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/cma
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/cmake.verify_globs | /home/zhongxezhongxe/Desktop/Prog/project/CMakeLists.txt /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/cmake.verify_globs | /home/zhongxezhongxe/Desktop/Prog/Programa-o/CMakeLists.txt /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/zhongxezhongxe/Desktop/Prog/project/CMakeLists.txt /home/zhongxezhongxe/Desktop/Prog/project/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/zhongxezhongxe/Desktop/Prog/Programa-o/CMakeLists.txt /home/zhongxezhongxe/Desktop/Prog/Programa-o/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/zhongxezhongxe/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

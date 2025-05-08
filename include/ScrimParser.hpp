@@ -3,12 +3,12 @@
 
 #include "Scrim.hpp"
 #include <iostream>
+#include <set>
 
 namespace prog {
     class ScrimParser {
     public:
         ScrimParser();
-
         ~ScrimParser();
 
 
@@ -18,7 +18,7 @@ namespace prog {
          * @param input
          * @return a **new** ImagePipeline built from the script defined in the input stream
          */
-        Scrim *parseScrim(std::istream &input);
+        Scrim* parseScrim(std::istream& input);
 
         /**
          * Helper method that accepts a file.
@@ -26,9 +26,11 @@ namespace prog {
          * @param filename
          * @return a **new** ImagePipeline built from the script defined in the given file
          */
-        Scrim *parseScrim(const std::string &filename);
+        Scrim* parseScrim(const std::string& filename);
+        std::vector<Command*> parse(const std::string& filename, std::set<std::string>& seen);
 
-        Command *parse_command(std::string command_name, std::istream &istream);
+    private: /** Para suportar o chain command **/
+        Command* parse_command(std::string command_name, std::istream& input);
     };
 }
 

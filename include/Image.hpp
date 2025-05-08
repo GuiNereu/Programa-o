@@ -7,8 +7,10 @@
 namespace prog {
     class Image {
     private:
-		// TODO: define private fields for image state
-    
+        int w;
+        int h;
+        std::vector<std::vector<Color>> pixels;
+
 	public:
         Image(int w, int h, const Color &fill = {255, 255, 255});
 
