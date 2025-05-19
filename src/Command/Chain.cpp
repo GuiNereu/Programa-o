@@ -19,14 +19,14 @@ namespace prog {
                     continue;
                 }
 
-                seen.insert(filename);
                 ScrimParser parser;
                 std::vector<Command*> cmds = parser.parse(filename, seen);
+                seen.insert(filename);
                 std::vector<Command*> filtered;
 
                 for (Command* cmd : cmds) {
                     std::string n = cmd->name();
-                    if (n == "save" || n == "blank" || n == "open") {
+                    if (n == "save") {
                         delete cmd;
                     } else {
                         filtered.push_back(cmd);
