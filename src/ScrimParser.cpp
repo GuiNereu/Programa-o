@@ -116,7 +116,10 @@ namespace prog {
         return result;
     }
 
+    // Metodo que interpreta um nome de comando e os parâmetros subsequentes, e cria o objeto Command correspondente
     Command* ScrimParser::parse_command(string command_name, istream& input) {
+
+        // Comando "blank": cria uma imagem em branco com largura, altura e cor especificadas
         if (command_name == "blank") {
             int w, h;
             Color fill;
@@ -124,32 +127,38 @@ namespace prog {
             return new command::Blank(w, h, fill);
         }
 
+        // Comando "save": salva a imagem atual num arquivo
         if (command_name == "save") {
             string filename;
             input >> filename;
             return new command::Save(filename);
         }
 
+        // Comando "open": abre uma imagem de um arquivo
         if (command_name == "open") {
             string filename;
             input >> filename;
             return new command::Open(filename);
         }
 
+        // Comando "invert": inverte as cores da imagem
         if (command_name == "invert") {
             return new command::InvertCommand();
         }
 
+        // Comando "to_gray_scale": converte a imagem para tons de cinza
         if (command_name == "to_gray_scale") {
             return new command::ToGrayScale();
         }
 
+        // Comando "replace": substitui uma cor específica por outra
         if (command_name == "replace") {
             Color from, to;
             input >> from >> to;
             return new command::Replace(from, to);
         }
 
+        // Comando "fill": preenche uma área retangular da imagem com uma cor
         if (command_name == "fill") {
             int x, y, w, h;
             Color fill;
@@ -157,14 +166,17 @@ namespace prog {
             return new command::Fill(x, y, w, h, fill);
         }
 
+        // Comando "h_mirror": espelha a imagem horizontalmente
         if (command_name == "h_mirror") {
             return new command::Hmirror();
         }
 
+        // Comando "v_mirror": espelha a imagem verticalmente
         if (command_name == "v_mirror") {
             return new command::Vmirror();
         }
 
+        // Comando "add": adiciona uma imagem por cima da atual em determinada posição, com uma cor neutra
         if (command_name == "add") {
             string filename;
             Color neutral;
@@ -173,53 +185,64 @@ namespace prog {
             return new command::Add(filename, neutral, x, y);
         }
 
+        // Comando "move": move os pixels da imagem em dx, dy (deslocamento)
         if (command_name == "move") {
             int dx, dy;
             input >> dx >> dy;
             return new command::Move(dx, dy);
         }
 
+        // Comando "slide": desliza a imagem em dx, dy com wrap-around (pixels que saem voltam do outro lado)
         if (command_name == "slide") {
             int dx, dy;
             input >> dx >> dy;
             return new command::Slide(dx, dy);
         }
 
+        // Comando "crop": recorta uma área da imagem
         if (command_name == "crop") {
             int x, y, w, h;
             input >> x >> y >> w >> h;
             return new command::Crop(x, y, w, h);
         }
 
+        // Comando "resize": redimensiona a imagem a partir de uma subárea
         if (command_name == "resize") {
             int x, y, w, h;
             input >> x >> y >> w >> h;
             return new command::Resize(x, y, w, h);
         }
 
+        // Comando "rotate_left": gira a imagem 90° para a esquerda
         if (command_name == "rotate_left") {
             return new command::RotateLeft();
         }
 
+        // Comando "rotate_right": gira a imagem 90° para a direita
         if (command_name == "rotate_right") {
             return new command::RotateRight();
         }
 
+        // Comando "scaleup": aumenta a imagem proporcionalmente por fatores x e y
         if (command_name == "scaleup") {
             int x, y;
             input >> x >> y;
             return new command::ScaleUp(x, y);
         }
 
+        // Comando "chain": aplica uma sequência de comandos a partir de vários arquivos
         if (command_name == "chain") {
             vector<string> filenames;
             string filename;
+
+            // Lê nomes de arquivos até encontrar a palavra "end"
             while (input >> filename && filename != "end") {
                 filenames.push_back(filename);
             }
             return new command::Chain(filenames);
         }
 
+        // Caso o comando não seja reconhecido, registra um erro e retorna nullptr
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
     }
